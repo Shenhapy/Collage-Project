@@ -1,0 +1,32 @@
+Safety Devices
+1- Over Current Devices
+A) Fuses
+B) Normal circuit breakers
+2- Residual current devices
+
+
+For each device
+1- Introduction for the device
+2- Theory of operation (include equations if possible)
+3- Different types
+4- Sensitivity and limitations
+5- Importance in electrical circuit
+6- Applications
+7- Installation considerations
+8- Selection Tables and manufacturers
+
+Include images, Graphs, tables and circuits.
+
+* Use Times New Roman bold font 18 for main title, bold 16 for subtitles, Regular 14 for paragraph, and with 1.5 line spacing.
+* Don't forget to add the references of your data
+* Use your own words (Don't Copy & Paste)
+* High quality for Pictures/ Graphs/ Figures
+* Include all your references even for the Figures
+
+Make 2 or 3 Slides PPT on your devices using the report data for the online presentation
+
+Tasks Assigning
+Formatting @Shennawy 
+Fuses @Mishary 
+Circuit breakers @Mohamed Daoud 
+RCDs @Hamza Hamad and Shenhapy
