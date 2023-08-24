@@ -1,0 +1,16 @@
+rho=Density(Water,T=50,P=100)
+alpha = (K/(rho*C_p))
+K = 0.6
+alpha =0.140e-6
+Bi=((h*L_c)/K)
+L_c=R
+R=D/2
+D=5e-2 [m]
+h=3000
+lambda = 3.14
+A=2
+(T-T_inf)/(T_i-T_inf)=A*exp(-lambda^2*tau)
+tau = (alpha * time)/L_c^2
+10=time/60
+T_inf = 99
+T_i=5
