@@ -1,0 +1,649 @@
+<root>
+<document schema='101' license='0,88263627,K38DMR' title='' description='' target='PIC.16F.16F872' >
+	<config data='!0,3fff%0,3%2,1%3,1%6,1%7,1%9,1%b,1%8,1%4,303' clkspd='19660800' simspd='1' usewdt='0' constif='0' />
+	<plugins >
+		<dll_dbg_icd enabled='0' >
+			<data name='debug' value='1' />
+			<data name='userpins' value='0' />
+			<data name='speed' value='0' />
+			<data name='usev9' value='0' />
+			<data name='breaks' value='8' />
+			<data name='stacks' value='8' />
+			<data name='clkport' value='1' />
+			<data name='clkbit' value='6' />
+			<data name='dataport' value='1' />
+			<data name='databit' value='7' />
+			<data name='ghostype' value='0' />
+			<data name='monitor' value='1' />
+			<data name='ictloop' value='0' />
+			<data name='ictrate' value='20000' />
+			<data name='ictmask' value='0' />
+			<data name='anlpres' value='255' />
+			<data name='digmask1' value='-1' />
+			<data name='digmask2' value='-1' />
+		</dll_dbg_icd>
+		<dll_models enabled='1' />
+		<dll_upgrader enabled='1' />
+		<dll_webhelp enabled='1' />
+	</plugins>
+	<supplement use='0' head='' body='' />
+	<debug />
+	<components >
+		<settings autoimg='1' center='1' unitscale='0' fixedscale='0' fixedx='1' fixedy='1' fixedz='1' headcode='0' />
+		<definition guid='2bdbfb34-4ed4-4203-ab3c-c4fb80f53527' vstate='40' vmin='0' vmaj='1' srcleaf='' visiblename='' description='' category='' catenable='1' author='' manuname='' manucode='' sysinfo='0' keywords='' dynamic='0' iconpath='' />
+		<component class_type='root' codename='panel' x='0' y='0' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='0' poslock='0' >
+			<resources />
+			<properties />
+			<values />
+			<events />
+			<apis />
+			<variables >
+				<variable public='0' >
+					<def class_type='variable' name='_2AF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3AR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='COUNT' type='u8' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_4B' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='STOP' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_24' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_2ARR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='false' type='b1' description='' isconst='1' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='PAUSE' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_4MF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3AFF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3S2' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3S1' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3AF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_1B2' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_1AR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_1B1' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='EM' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_1AFF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='X' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_4MFF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='III' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3ARR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_4S' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_7' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_6' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_2B2' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_1AF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_2AR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_5' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='START' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_2B1' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_3' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='GO' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_2' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_1ARR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='ON' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_4MRR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_2AFF' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='true' type='b1' description='' isconst='1' isinit='1' usrinit='1' setinit='1' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='_4MR' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='flag' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+			</variables>
+			<macros >
+				<macro >
+					<flowline name='TILL3' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='calculation' title='Calculation' >
+							<exp exp='COUNT = COUNT + 1' />
+						</command>
+						<command class_type='decision' title='Decision' exp='COUNT == 4' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' >
+									<exp exp='COUNT = 0' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='Main' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='interrupt' title='Interrupt' enable='1' name='INT0' call='TILL3' >
+							<settings timer='0' prescale='-1' postscale='-1' rollover='-1' bitcount='-1' trigger='2' maskhi='--------------------------------------------------------------------------------------------------------------------------------------------------------------------------8' masklo='--------------------------------------------------------------------------------------------------------------------------------------------------------------------------8' >
+								<option value='1' />
+								<option value='-1' />
+								<option value='-1' />
+								<option value='-1' />
+							</settings>
+						</command>
+						<command class_type='loop' title='Loop' type='0' exp='1' >
+							<flowline >
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='4' exp='_4S' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='2' exp='_4B' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='1' exp='_3S1' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='8' exp='_3S2' />
+								<command class_type='input' title='Input' mode='1' port='1048576' mask='64' exp='START' />
+								<command class_type='input' title='Input' mode='1' port='1048576' mask='32' exp='STOP' />
+								<command class_type='input' title='Input' mode='1' port='1048576' mask='16' exp='PAUSE' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='128' exp='_1B2' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='64' exp='_1B1' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='32' exp='_2B2' />
+								<command class_type='input' title='Input' mode='1' port='1048577' mask='16' exp='_2B1' />
+								<command class_type='calculation' title='Calculation' >
+									<exp exp='III = (COUNT == 0)' />
+									<exp exp='ON = !STOP &amp; (ON | START)' />
+									<exp exp='EM = !PAUSE &amp; (EM | START)' />
+									<exp exp='GO = ! (III &amp; _3S2) &amp; (GO | _1B2)' />
+									<exp exp='X = !_3S1 &amp; (X | _4B)' />
+									<exp exp='flag = !_1B1 &amp; (flag | _1B2)' />
+									<exp exp='_2 = (_2B2 &amp; _3S1 &amp; Go &amp; ON)' />
+									<exp exp='_3 = (_3S2 &amp; _4S &amp; (!X) &amp; ON)' />
+									<exp exp='_5 = (_2B2 &amp; _4S &amp; X &amp; (!III) &amp; ON)' />
+									<exp exp='_6 = ((X &amp; _4S &amp; III) | (_3S2 &amp; _2B1) &amp; ON)' />
+									<exp exp='_7 = (_2B1 &amp; _3S1 &amp; ON)' />
+									<exp exp='_24 = (_3S1 &amp; (!GO) &amp; (!_1AF) &amp; (!_1B1) &amp; ON &amp; flag)' />
+								</command>
+								<command class_type='calculation' title='Calculation' >
+									<exp exp='_1AFF = (!_1B2 &amp; (_1AFF | (_1B1 &amp; START)))' />
+									<exp exp='_1ARR = (!_1B1 &amp; (_24 | _1ARR))' />
+									<exp exp='_2AFF = (!_2B2 &amp; (_7 | _2AFF))' />
+									<exp exp='_2ARR = (!_2B1 &amp; (_5 | _2ARR))' />
+									<exp exp='_3AFF = (!_3S2 &amp; (_2 | _3AFF))' />
+									<exp exp='_3ARR = (!_3S1 &amp; (_6 | _3ARR))' />
+									<exp exp='_4MFF = (!_4B &amp; (_3 | _4MFF))' />
+									<exp exp='_4MRR = (!_4S &amp; (_4B | _4MRR))' />
+								</command>
+								<command class_type='calculation' title='Calculation' >
+									<exp exp='_1AF = EM &amp; _1AFF' />
+									<exp exp='_1AR = EM &amp; _1ARR' />
+									<exp exp='_2AF = EM &amp; _2AFF' />
+									<exp exp='_2AR = EM &amp; _2ARR' />
+									<exp exp='_3AF = EM &amp; _3AFF' />
+									<exp exp='_3AR = EM &amp; _3ARR' />
+									<exp exp='_4MF = EM &amp; _4MFF' />
+									<exp exp='_4MR = EM &amp; _4MRR' />
+								</command>
+								<command class_type='output' title='Output' mode='1' port='1048576' mask='8' exp='_1AF' />
+								<command class_type='output' title='Output' mode='1' port='1048578' mask='8' exp='_1AR' />
+								<command class_type='output' title='Output' mode='1' port='1048576' mask='4' exp='_2AF' />
+								<command class_type='output' title='Output' mode='1' port='1048578' mask='4' exp='_2AR' />
+								<command class_type='output' title='Output' mode='1' port='1048576' mask='2' exp='_3AF' />
+								<command class_type='output' title='Output' mode='1' port='1048578' mask='2' exp='_3AR' />
+								<command class_type='output' title='Output' mode='1' port='1048576' mask='1' exp='_4MF' />
+								<command class_type='output' title='Output' mode='1' port='1048578' mask='1' exp='_4MR' />
+							</flowline>
+						</command>
+					</flowline>
+				</macro>
+			</macros>
+			<component class_type='ref' guid='4ac72986-ad7d-49ce-afe5-9128831debc9' vmin='1' vmaj='1' codename='switch_array_slide1' x='104' y='0' z='11.9222' xsz='6.87004' ysz='7.27273' zsz='6.81269' xang='0' yang='0' zang='-0.243406' xquat='0' yquat='0' zquat='-0.00212412' wquat='0.999998' visible='1' interactive='1' solid='1' layer='1' poslock='1' >
+				<resources />
+				<properties />
+				<values >
+					<value target='count' data='4' />
+					<value target='port' data='011' />
+					<value target='pin0' data='$PORTB.4' />
+					<value target='pin1' data='$PORTB.5' />
+					<value target='pin2' data='$PORTB.6' />
+					<value target='pin3' data='$PORTB.7' />
+					<value target='pin4' data='$PORTA.4' />
+					<value target='pin5' data='$PORTA.5' />
+					<value target='pin6' data='$PORTA.6' />
+					<value target='pin7' data='$PORTA.7' />
+					<value target='debounce' data='0' />
+					<value target='polarity' data='000' />
+					<value target='align' data='001' />
+					<value target='spacing' data='12.000000' />
+					<value target='reverse' data='0' />
+					<value target='show_labels' data='004' />
+					<value target='label_color' data='16777215' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='4ac72986-ad7d-49ce-afe5-9128831debc9' vmin='1' vmaj='1' codename='switch_array_slide2' x='176' y='-8' z='11.8788' xsz='6.78788' ysz='6.78788' zsz='6.78788' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='1' >
+				<resources />
+				<properties />
+				<values >
+					<value target='count' data='4' />
+					<value target='port' data='011' />
+					<value target='pin0' data='$PORTB.2' />
+					<value target='pin1' data='$PORTB.1' />
+					<value target='pin2' data='$PORTB.0' />
+					<value target='pin3' data='$PORTB.3' />
+					<value target='pin4' data='' />
+					<value target='pin5' data='' />
+					<value target='pin6' data='' />
+					<value target='pin7' data='' />
+					<value target='debounce' data='0' />
+					<value target='polarity' data='000' />
+					<value target='align' data='001' />
+					<value target='spacing' data='12.000000' />
+					<value target='reverse' data='0' />
+					<value target='show_labels' data='004' />
+					<value target='label_color' data='16777215' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='63177601-e8e2-4330-89d3-a4c5a7e228f5' vmin='1' vmaj='1' codename='led_array_pcb1' x='-86.0678' y='52' z='18.7119' xsz='8.13559' ysz='8.13559' zsz='8.13559' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='1' >
+				<resources />
+				<properties />
+				<values >
+					<value target='count' data='4' />
+					<value target='polarity' data='001' />
+					<value target='port' data='000' />
+					<value target='pin0' data='$PORTA.0' />
+					<value target='pin1' data='$PORTA.1' />
+					<value target='pin2' data='$PORTA.2' />
+					<value target='pin3' data='$PORTA.3' />
+					<value target='pin4' data='$PORTA.4' />
+					<value target='pin5' data='$PORTA.5' />
+					<value target='pin6' data='$PORTA.6' />
+					<value target='pin7' data='$PORTA.7' />
+					<value target='full_port' data='$PORTA' />
+					<value target='align' data='000' />
+					<value target='spacing' data='7.000000' />
+					<value target='reverse' data='0' />
+					<value target='show_labels' data='003' />
+					<value target='color_led0' data='16777215' />
+					<value target='label_color' data='16777215' />
+					<value target='bitmask' data='255' />
+					<value target='inv_bitmask' data='-256' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='63177601-e8e2-4330-89d3-a4c5a7e228f5' vmin='1' vmaj='1' codename='led_array_pcb2' x='-88' y='-32' z='18.7119' xsz='8.13559' ysz='8.13559' zsz='8.13559' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='1' >
+				<resources />
+				<properties />
+				<values >
+					<value target='count' data='4' />
+					<value target='polarity' data='001' />
+					<value target='port' data='002' />
+					<value target='pin0' data='$PORTC.0' />
+					<value target='pin1' data='$PORTC.1' />
+					<value target='pin2' data='$PORTC.2' />
+					<value target='pin3' data='$PORTC.3' />
+					<value target='pin4' data='$PORTC.4' />
+					<value target='pin5' data='$PORTC.5' />
+					<value target='pin6' data='$PORTC.6' />
+					<value target='pin7' data='$PORTC.7' />
+					<value target='full_port' data='$PORTC' />
+					<value target='align' data='000' />
+					<value target='spacing' data='7.000000' />
+					<value target='reverse' data='0' />
+					<value target='show_labels' data='003' />
+					<value target='color_led0' data='65280' />
+					<value target='label_color' data='16777215' />
+					<value target='bitmask' data='255' />
+					<value target='inv_bitmask' data='-256' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='e8f04af0-03d9-4b1c-83d3-9d0b1dc0f80a' vmin='1' vmaj='1' codename='sw_toggle_mtl_pnl1' x='-144' y='144' z='-2.4395' xsz='4.0678' ysz='4.40945' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTA.6' />
+					<value target='polarity' data='000' />
+					<value target='debounce' data='10' />
+					<value target='operation' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='e8f04af0-03d9-4b1c-83d3-9d0b1dc0f80a' vmin='1' vmaj='1' codename='sw_toggle_mtl_pnl2' x='-80' y='144' z='-2.4395' xsz='4.0678' ysz='4.40945' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTA.5' />
+					<value target='polarity' data='000' />
+					<value target='debounce' data='10' />
+					<value target='operation' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='e8f04af0-03d9-4b1c-83d3-9d0b1dc0f80a' vmin='1' vmaj='1' codename='sw_toggle_mtl_pnl3' x='-16' y='144' z='-2.4395' xsz='4.0678' ysz='4.40945' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTA.4' />
+					<value target='polarity' data='000' />
+					<value target='debounce' data='10' />
+					<value target='operation' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='text' codename='label1' x='-144' y='104' z='0' xsz='11.1845' ysz='16' zsz='0' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='Text' data='START' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='text' codename='label4' x='-144' y='-92' z='0' xsz='7.83082' ysz='0' zsz='0' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='Text' data='Please Change Caption' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='text' codename='label5' x='-88' y='16' z='0' xsz='9.27672' ysz='24' zsz='0' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='Text' data='1AF                  2AF               3AF                4MF' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='text' codename='label6' x='-88' y='-72' z='0' xsz='9.27672' ysz='24' zsz='0' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='Text' data='1AR                  2AR               3AR                4MR' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox1' x='112' y='0' z='34.5635' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='1B1' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox2' x='112' y='-88' z='34.5635' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='2B2' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox3' x='112' y='-176' z='34.5635' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='2B1' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox4' x='112' y='80' z='34.5635' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='1B2' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox5' x='184' y='64' z='34.4394' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='3B2' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox6' x='184' y='-8' z='34.4394' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='3B1' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox7' x='184' y='-96' z='34.4394' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='4B' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='textbox' codename='textbox8' x='184' y='-176' z='34.4394' xsz='32' ysz='32' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='FontSize' data='12' />
+					<value target='AlignX' data='0' />
+					<value target='AlignY' data='0' />
+					<value target='Text' data='4S' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='text' codename='label2' x='-80' y='104' z='0' xsz='11.1845' ysz='16' zsz='0' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='Text' data='STOP' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='text' codename='label3' x='-16' y='104' z='0' xsz='11.1845' ysz='16' zsz='0' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' interactive='1' solid='1' layer='1' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='Color' data='192' />
+					<value target='Background' data='-1' />
+					<value target='Font' data='Arial' />
+					<value target='Text' data='PAUSE' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+		</component>
+	</components>
+	<keymap />
+	<panel2d shadows='0' lighting='2' brightness='0' perspective='0' >
+		<background rgb='9737364' img='' style='0' />
+		<camera xe='0' ye='0' ze='638.233' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+	</panel2d>
+	<panel3d shadows='0' lighting='2' brightness='0' perspective='0' >
+		<background rgb='8409120' img='' style='0' />
+		<table rgb='7360576' img='' style='0' size='25' />
+		<camera xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+	</panel3d>
+	<layout >
+		<view type='0' name='Main' mode='0' placement='LAAAAAAAAAABAAAA---------------------wAAAAAUAAAA0AEAAFgCAAA' zoom='70' scrollx='0' scrolly='0' flags='0' />
+		<view type='0' name='TILL3' mode='0' placement='LAAAAAAAAAABAAAA---------------------wAAAAAUAAAA0AEAAFgCAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+	</layout>
+</document>
+</root>
